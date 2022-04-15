@@ -1,6 +1,6 @@
-# snake-js
-Snake in JavaScript
+# snake-rifts
+RIFTS = React + Ionic + Firebase + TypeScript
 
-I am trying to build Snake in JavaScript, I have done it in Java already
+I am trying to build Snake with TypeScript, Ionic, React and Firebase.
 
 Morover I am trying to improve my knowledge in GitHub and Git.
