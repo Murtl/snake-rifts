@@ -1,10 +1,15 @@
-import { IonCard} from '@ionic/react';
-import CanvasDraw from 'react-canvas-draw';
+import { IonCard, IonIcon} from '@ionic/react';
+import { square} from "ionicons/icons";
 
 const Playfield: React.FC = () => {
   return (
     <IonCard>
-        <CanvasDraw></CanvasDraw>
+        <IonIcon icon={square}></IonIcon>
+        <IonIcon icon={square}></IonIcon>
+        <IonIcon icon={square}></IonIcon>
+        <IonIcon icon={square}></IonIcon>
+        <IonIcon icon={square}></IonIcon>
+        <IonIcon icon={square}></IonIcon>
     </IonCard>
   );
 };
