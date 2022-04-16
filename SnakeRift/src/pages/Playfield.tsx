@@ -1,8 +1,11 @@
-import { IonText } from '@ionic/react';
+import { IonCard} from '@ionic/react';
+import CanvasDraw from 'react-canvas-draw';
 
 const Playfield: React.FC = () => {
   return (
-    <IonText>Test</IonText>
+    <IonCard>
+        <CanvasDraw></CanvasDraw>
+    </IonCard>
   );
 };
 
